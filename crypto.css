@@ -1,0 +1,498 @@
+@import url('https://fonts.googleapis.com/css2?family=Megrim&display=swap');
+
+html {
+  background-color: black;
+  font-size: 20px;
+}
+
+body {
+  margin: 0;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,"Helvetica neue",Arial,sans-serif,"Apple Color Emoji","Segoe UI Emoji","Segoe UI Symbol";
+  font-weight: 400;
+  line-height: 1.5;
+  background-color: black !important;
+}
+
+main {
+  background-color: #04101e;
+  position: relative;
+}
+
+#header-image {
+  height: 12vw;
+  width: auto;
+  position: relative;
+  display: block;
+  cursor: auto;
+}
+
+header {
+  align-items: center;
+  box-sizing: border-box;
+  display: flex;
+  font-family: 'Megrim', cursive;
+  font-weight: 500;
+  overflow: hidden;
+  position: fixed;
+  background-color:black;
+  bottom: auto;
+  justify-content:space-evenly;
+  height: auto;
+  width: 100%;
+}
+
+@media (max-width: 600px) {
+  header {
+    flex-wrap: wrap;
+  }
+}
+
+@media (max-width: 650px) {
+  #header-image {
+    margin-top: 15px;
+    width: auto;
+    position: relative;
+  }
+}
+
+@media (max-width: 650px) {
+  #header-image > img {
+    margin: 0 auto;
+  }
+}
+
+.menu {
+  position: fixed;
+  background-color: #000000;
+  z-index: 1;
+}
+
+.menu a {
+  float: left;
+  color: white;
+  text-align: center;
+  padding: 1rem 1rem;
+  text-decoration: none;
+  font-size: 2.2vw;
+  margin-top: 4px;
+  line-height: 21px;
+  display: inline-flex;
+  max-width: 100%;
+  box-sizing: border-box;
+  transition: all 1s ease;
+  position: relative;
+  z-index: 2;
+}
+
+.menu a:after {
+  position: fixed;
+  overflow: hidden;
+  z-index: 2;
+}
+#nav-bar {
+  display: flex;
+  flex-direction: row;
+  top: 0;
+}
+
+#nav-bar a:hover {
+  color:#60a2c4;
+  transition: 0.2s;
+}
+@media (max-width: 650px) {
+  nav > ul {
+    flex-direction: column;
+  }
+}
+
+h3 {
+  color: white;
+  font-size: 5vw;
+}
+
+.break-container {
+  height: 30px;
+}
+
+.container1 {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 12vw;
+  background: rgb(4,16,30);
+}
+
+.container2 {
+  max-width: 100%;
+  margin: 0 auto;
+  height: 5vw;
+  background: rgb(4,16,30);
+}
+
+#what {
+  background-color: #04101e;
+  color: white;
+  text-align: center;
+  font-size: 2.5vw;
+}
+
+.description {
+ text-align: left;
+ text-indent: 4vw;
+}
+
+.list-font-1 {
+  margin: 0;
+  padding: 2vw 1vw 2vw 5vw;
+  list-style: none;
+  background-image: url("https://www.dropbox.com/s/e82eco7idslnwzo/clipart620831.png?raw=1");
+  background-repeat: no-repeat;
+  background-position: 0.0vw;
+  background-size: 5vw;
+  font-size: 2.5vw;
+  color: white;
+  text-align: left;
+}
+
+.list-font-2 {
+  margin: 0;
+  padding: 2vw 1vw 2vw 5vw;
+  list-style: none;
+  background-image: url("https://www.dropbox.com/s/exidbjks4qd6obd/800px-Ethereum-icon-purple.png?raw=1");
+  background-repeat: no-repeat;
+  background-position: 0.0vw;
+  background-size: 5vw;
+  justify-content: center;
+  font-size: 2.5vw;
+  color: white;
+  text-align: left;
+}
+
+.list-font-3 {
+  margin: 0;
+  padding: 2vw 1vw 2vw 5vw;
+  list-style: none;
+  background-image: url("https://www.dropbox.com/s/ilvxzzg28yotcpu/fast-n-free-logo.png?raw=1");
+  background-repeat: no-repeat;
+  background-position: 0.0vw;
+  background-size: 5vw;
+  justify-content: center;
+  font-size: 2.5vw;
+  color: white;
+  text-align: left;
+}
+
+.list-font-4 {
+  margin: 0;
+  padding: 2vw 1vw 2vw 5vw;
+  list-style: none;
+  background-image: url("https://www.dropbox.com/s/wab3zju2a8fplg0/PikPng.com_satisfaction-guaranteed-png_1541165.png?raw=1");
+  background-repeat: no-repeat;
+  background-position: 0.0vw;
+  background-size: 5vw;
+  justify-content: center;
+  font-size: 2.5vw;
+  color: white;
+  text-align: left;
+}
+
+.video-grab {
+    justify-content: center;
+    margin-top: 50px;
+    display: flex;
+}
+
+h1 {
+  color: #87cefa;
+  text-align: center;
+}
+
+
+.container {
+  width:75%;
+  margin: 0 auto;
+}
+
+.List {
+  justify-content: center;
+}
+
+
+#About-Us .icon {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 125px;
+  width: 20vw;
+  color: blue;
+}
+
+#Clothes {
+  flex-direction: row;
+  justify-content: center;
+}
+.container-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  height: 50vw;
+}
+
+.clothe-description {
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.clothe-description1 {
+  color: white;
+  text-align: center;
+  font-size: 3vw;
+}
+
+.clothe-img {
+  width: 30vw;
+}
+
+#Accessories {
+  flex-direction: row;
+  justify-content: center;
+}
+
+
+.clothe-a {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100% / 3;
+  margin: 10px;
+}
+
+.clothe-b {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100% / 3;
+  margin: 10px;
+}
+
+.clothe-c {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  width: 100% / 3;
+  margin: 10px;
+}
+
+.clothes-title {
+  font-size: 100 vw;
+}
+
+p {
+  color: white;
+  font-size: 2.7vw;
+}
+.add-to-cart {
+  display: inline-block;
+  border-radius: 1rem;
+  background-color: #38789d;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 2.5vw;
+  padding: 20px;
+  width: 25vw;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.add-to-cart span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.add-to-cart span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.add-to-cart:hover span {
+  padding-right: 25px;
+}
+
+.add-to-cart:hover span:after {
+  opacity: 1;
+  right: 0;
+}
+
+.inputButton {
+  display: inline-block;
+  border-radius: 1rem;
+  background-color: #60a2c4;
+  border: none;
+  color: #FFFFFF;
+  text-align: center;
+  font-size: 2.5vw;
+  padding: 20px;
+  width: 25vw;
+  transition: all 0.5s;
+  cursor: pointer;
+  margin: 5px;
+}
+
+.inputButton {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+}
+
+.inputButton:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.inputButton:hover {
+  padding-right: 25px;
+}
+
+.inputButton:hover:after {
+  opacity: 1;
+  right: 0;
+}
+
+.spanElement {
+  display: inline-block;
+}
+.clothes-title {
+  font-size: 5vw;
+}
+
+.demoWrapper {
+  padding-right: 2vw;
+  padding-left: 2vw;
+  box-sizing: content-box;
+  max-width: 100%;
+}
+
+#updates {
+  flex-direction: column;
+  align-items: center;
+  display: flex;
+  width: 100%;
+  height:max-content;
+  background-image: url(https://www.dropbox.com/s/7kp7n1xftgxvl75/background.png?raw=1);
+  background-size: cover;
+  background-image: fixed;
+}
+
+#arrow {
+  font-size: 8vw;
+}
+
+#updates > h2 {
+  text-align: center;
+  color: #87cefa;
+}
+
+#updates input[type='email'] {
+  justify-content: center;
+  width: 100%;
+  max-width: 50vw;
+  padding: 1vw;
+  margin-top: 4vw;
+  margin-bottom: 4vw;
+}
+
+#updates input[type='submit'] {
+  width: 100%;
+  max-width: 50vw;
+  margin-bottom: 4vw;
+}
+
+li {
+  color: white;
+  font-size: 3vw;
+  text-align: center;
+}
+
+#list-font-5 {
+  margin: 0;
+  padding: 2vw 1vw 2vw 5vw;
+  list-style: none;
+  background-image: url("https://www.dropbox.com/s/869f3iavi1ew2xw/FedEx__26533.1415918008.png?raw=1");
+  background-repeat: no-repeat;
+  background-position: 0.0vw;
+  background-size: 5vw;
+  font-size: 2.5vw;
+  color: white;
+  text-align: left;
+}
+
+#list-font-6 {
+  margin: 0;
+  padding: 2vw 1vw 2vw 5vw;
+  list-style: none;
+  background-image: url("https://www.dropbox.com/s/d71pzg4b0ao2wra/sign%20and%20schedule.svg?raw=1");
+  background-repeat: no-repeat;
+  background-position: 0.0vw;
+  background-size: 5vw;
+  font-size: 2.5vw;
+  color: white;
+  text-align: left;
+}
+
+#list-font-7 {
+  margin: 0;
+  padding: 2vw 1vw 2vw 5vw;
+  list-style: none;
+  background-image: url("https://www.dropbox.com/s/96ylj27l6z3l2nt/png-transparent-calendar-date-computer-icons-agenda-others-text-calendar-logo.png?raw=1");
+  background-repeat: no-repeat;
+  background-position: 0.0vw;
+  background-size: 5vw;
+  justify-content: center;
+  font-size: 2.5vw;
+  color: white;
+  text-align: left;
+}
+
+#list-font-8 {
+  margin: 0;
+  padding: 2vw 1vw 2vw 5vw;
+  list-style: none;
+  background-image: url("https://www.dropbox.com/s/c7js8mokbfmol1g/return-package.png?raw=1");
+  background-repeat: no-repeat;
+  background-position: 0.0vw;
+  background-size: 5vw;
+  justify-content: center;
+  font-size: 2.5vw;
+  color: white;
+  text-align: left;
+}
+
+#Shipping {
+  justify-content: center;
+}
+
+footer {
+  clear:both;
+  background-color: black;
+  height: 20px;
+  text-align: center;
+  color:#E8E8E8;
+}
+
+footer.footer {
+  font-size: 3px;
+  color: #D8D8D8;
+}
