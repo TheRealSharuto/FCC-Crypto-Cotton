@@ -3,38 +3,45 @@
 
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
-    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="utf-8" name="viewport" content="width=device-width, initial-scale=1">
     <link rel=" stylesheet" type="text/css" href="./crypto.css" />
-    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.1/dist/css/bootstrap.min.css" rel="stylesheet"
-        integrity="sha384-F3w7mX95PdgyTmZZMECAngseQB83DfGTowi0iMjiWaeVhAn4FJkqJByhZMI3AhiU" crossorigin="anonymous">
-    <link href="https://fonts.googleapis.com/css2?family=Mulish:wght@400;700&display=swap" rel="stylesheet">
-    <script src="https://kit.fontawesome.com/55613112e1.js" crossorigin="anonymous"></script>
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
 </head>
 
 <body>
-    <main>
-        <div class="menu">
-            <header id="header">
-                <img id="header-image"
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark" id="nav-bar">
+        <div class="container-fluid" id="menu">
+            <a class="navbar-brand" href="/"><img
                     src="https://www.dropbox.com/s/eg78od1vwfqg46l/Crypto%20Cotton%20Logo-3.png?raw=1"
-                    alt="Crypto Cotton Logo">
-                <div class="centered-menu">
-                    <nav class="navbar navbar-expand-lg">
-                        <a class="nav-link" href="#About-Us">About Us</a>
-                        <a class="nav-link" href="#Clothes">Clothes</a>
-                        <a class="nav-link" href="#Accessories">Acessories</a>
-                        <a class="nav-link" href="#Shipping">Shipping</a>
-                        <a class="nav-link" href="#Cart"><img
-                                src="https://www.dropbox.com/s/onvlwwe8f7dzocs/shopping-cart-icon-white-11.png?raw=1"
-                                alt="Shopping Cart" width="auto !important" height="20vh !important"
-                                padding-bottom="20vw"></a>
-                    </nav>
-                </div>
-            </header>
+                    alt="Crypto Cotton Logo" width="60" height="auto"></a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#About-Us">About US</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#Clothes">Clothes</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#Accessories">Accessories</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" aria-current="page" href="#Shipping">Shipping</a>
+                    </li>
+                </ul>
+            </div>
         </div>
-
-        <div id="center-wrapper">
-            <div class="between-menu"></div>
+    </nav>
+    <div class="container-fluid" id="container-fluid-1">
+        <div class="container d-flex justify-content-center no-gutters">
             <section id="updates">
                 <h3 id="signUp">
                     <br><i>Get 15% off your first order!</i>
@@ -42,161 +49,246 @@
                 <br>
                 <h1 id="arrow"><span>&#8623;</span></h1>
                 <form id="form" action="https://www.freecodecamp.com/email-submit">
-                    <input name="email" id="email" type="email" placeholder="Enter your email address" required />
+                    <input name="email" id="email" type="email" placeholder="Email address" required />
                     <input id="submit" type="submit" value="Sign Up" class="inputButton" />
                 </form>
             </section>
-            <section id="About-Us">
-                <div class="container2"></div>
-                <div class="section-one">
-                    <h1 id="About"> <i> About Us </i></h1>
-                    <div class="between-vid"></div>
-                    <h2 id="what"> We make clothes for your favorite cryptocurency!</h2>
-                </div>
-                <section id="About-Us-Vid">
-                    <div class="video-grab">
-                        <iframe width="560" height="315" src="https://www.youtube.com/embed/-bAEkeIMygM"
-                            title="YouTube video player" frameborder="0"
-                            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-                            allowfullscreen></iframe>
-                    </div>
-                </section>
-                <div class="between-vid"></div>
-                <section class="List">
-                    <div class="container">
-                        <div class="grid">
-                            <div class="description">
-                                <ul class="graphic-list">
-                                    <li class="list-font-1"><em>100% Organic Cotton </em> </li>
-                                    <li class="list-font-2"><em> Over 100 Different Cryptocurrencies</em></li>
-                                    <li class="list-font-3"><em> FAST and FREE Shipping on ALL Products </em></li>
-                                    <li class="list-font-4"><em> Not Happy? Free Returns within 90 days! </em></li>
-                                </ul>
-                            </div>
-                        </div>
-                    </div>
-                </section>
-            </section>
-            <div class="between-vid"></div>
-            <div class="demoWrapper">
-                <section id="Clothes">
-                    <h1 class="clothes-title"><i>Clothes</i></h1>
-                    <br>
-                    <div class="container-grid" id="etheureum">
-                        <div class="clothe-a">
-                            <div class="clothe-description">
-                                <h2 class="clothe-description1">Etheureum Shirt</h2>
-                            </div>
-                            <br>
-                            <img class="clothe-img"
-                                src="https://www.dropbox.com/s/i0hl9nnzvzi7d20/ethereum-shirt.jpeg?raw=1">
-                            <p>$25</p>
-                            <button type="submit" id="submit" class="add-to-cart" style="vertical-align:middle;"><span
-                                    class="spanElement">Add
-                                    to
-                                    Cart</span>
-                        </div>
-
-                        <div class="clothe-b">
-                            <h2 class="clothe-description1">Chainlink Sweatshirt</h2>
-                            <br>
-                            <img class="clothe-img"
-                                src="https://www.dropbox.com/s/6154q5zn1oh52b9/Chainlink-Hoodie.jpeg?raw=1">
-                            <p>$50</p>
-                            <button type="submit" id="submit" class="add-to-cart" style="vertical-align:middle;"><span
-                                    class="spanElement">Add
-                                    to
-                                    Cart</span>
-                        </div>
-                        <div class="clothe-c">
-                            <h2 class="clothe-description1">Bitcoin Shoes</h2>
-                            <br>
-                            <img class="clothe-img"
-                                src="https://www.dropbox.com/s/fs8arqmqb2ylbel/10230_0_0x2_4c73d32b-9cac-40ee-b695-bfa595d41a20.jpeg?raw=1">
-                            <p>$120</p>
-                            <button type="submit" id="submit" class="add-to-cart" style="vertical-align:middle;"><span
-                                    class="spanElement">Add
-                                    to
-                                    Cart</span>
-                            </button>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="between-clothes"></div>
-            <div class="demoWrapper">
-                <section id="Accessories">
-                    <h1 class="clothes-title"><i>Accessories</i></h1>
-                    <br>
-                    <div class="container-grid" id="etheureum">
-                        <div class="clothe-a">
-                            <div class="clothe-description">
-                                <h2 class="clothe-description1">Cardano Hat</h2>
-                            </div>
-                            <br>
-                            <img class="clothe-img"
-                                src="https://www.dropbox.com/s/fi1yfdghmtvs3ih/Image%201-15-22%20at%2012.13%20AM.jpg?raw=1">
-                            <p>$25</p>
-                            <button type="submit" id="submit" class="add-to-cart" style="vertical-align:middle;"><span
-                                    class="spanElement">Add
-                                    to
-                                    Cart</span>
-                        </div>
-
-                        <div class="clothe-b">
-                            <h2 class="clothe-description1">Binance Pillow</h2>
-                            <br>
-                            <img class="clothe-img"
-                                src="https://www.dropbox.com/s/svqs974q6m73e2u/Image%201-15-22%20at%2012.16%20AM.jpg?raw=1">
-                            <p>$50</p>
-                            <button type="submit" id="submit" class="add-to-cart" style="vertical-align:middle;"><span
-                                    class="spanElement">Add
-                                    to
-                                    Cart</span>
-                        </div>
-                        <div class="clothe-c">
-                            <h2 class="clothe-description1">Pancake Swap Bag</h2>
-                            <br>
-                            <img class="clothe-img"
-                                src="https://www.dropbox.com/s/r5hn7o3kyi1odma/pancake-swap-backpack.jpeg?raw=1">
-                            <p>$175</p>
-                            <button type="submit" id="submit" class="add-to-cart" style="vertical-align:middle;"><span
-                                    class=spanElement>Add
-                                    to
-                                    Cart</span>
-                            </button>
-                        </div>
-                    </div>
-                </section>
-            </div>
-            <div class="between-clothes"></div>
-            <section id="Shipping">
-                <div class="container">
-                    <div class="grid">
-                        <div class="description">
-                            <h1 class="clothes-title"><i>Shipping</i></h1>
-                            <br>
-                            <ul class="graphic-list">
-                                <li id="list-font-5"> All products are shipped through FedEx</li>
-                                <hr class="line">
-                                <li id="list-font-6"> Optional sign requirements for delivery
-                                </li>
-                                <hr class="line">
-                                <li id="list-font-7">
-                                    <p class="font-7">Arrives within 7 business days with scheduling options</p>
-                                </li>
-                                <hr class="line">
-                                <li id="list-font-8"> All products come with a free return label</li>
-                                <hr class="line">
-                            </ul>
-            </section>
+            <div class="container-cover"></div>
         </div>
-        <footer>
-            <div class="footer">
-                <p>&copy; Crypto Cotton 2022</p>
+    </div>
+    <div class="container2"></div>
+    <div class="container">
+        <div class="section-one"></div>
+        <section id="About-Us">
+            <h1 id="About"> <i> About Us </i></h1>
+            <br>
+            <h2 id="what"> We make clothes for your favorite cryptocurency!</h2>
+            <br>
+        </section>
+    </div>
+    </div>
+    <div class="container">
+        <section id="About-Us-Vid">
+            <div class="video-grab">
+                <iframe src="https://www.youtube.com/embed/-bAEkeIMygM" title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen></iframe>
             </div>
-        </footer>
-    </main>
+            <br>
+        </section>
+    </div>
+    <div class="container1"></div>
+    <div class="container">
+        <section class="List">
+            <div class="row align-items-start flex-nowrap justify-content-start no-gutters">
+                <div class="col-1 p-1" id="description">
+                    <img class="icon-style" src="https://www.dropbox.com/s/e82eco7idslnwzo/clipart620831.png?raw=1">
+                </div>
+                <div class="col-11 p-0">
+                    <ul class="graphic-list">
+                        <li class="list-font-1"><em>100% Organic Cotton </em> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row align-items-start flex-nowrap justify-content-start">
+                <div class="col-1 p-1" id="description">
+                    <img class="icon-style"
+                        src="https://www.dropbox.com/s/exidbjks4qd6obd/800px-Ethereum-icon-purple.png?raw=1">
+                </div>
+                <div class="col-11 p-0">
+                    <ul class="graphic-list">
+                        <li class="list-font-2"><em> Over 100 Different Cryptocurrencies</em></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row align-items-start flex-nowrap justify-content-start">
+                <div class="col-1 p-1" id="description">
+                    <img class="icon-style" src="https://www.dropbox.com/s/ilvxzzg28yotcpu/fast-n-free-logo.png?raw=1">
+                </div>
+                <div class="col-11 p-0">
+                    <ul>
+                        <li class="list-font-3"><em> FAST and FREE Shipping on ALL Products </em></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row align-items-start flex-nowrap justify-content-start">
+                <div class="col-1 p-1" id="description">
+                    <img class="icon-style"
+                        src="https://www.dropbox.com/s/wab3zju2a8fplg0/PikPng.com_satisfaction-guaranteed-png_1541165.png?raw=1">
+
+                </div>
+                <div class="col-11 p-0">
+                    <ul>
+                        <li class="list-font-4"><em> Not Happy? Free Returns within 90 days!</em></li>
+                    </ul>
+                </div>
+        </section>
+    </div>
+    </div>
+    <div class="container-fluid" id="demoWrapper">
+        <section id="Clothes">
+            <br>
+            <h1 class="clothes-title"><i>Clothes</i></h1>
+            <div class="container-grid" id="etheureum">
+                <div class="clothe-a">
+                    <div class="clothe-description">
+                        <h2 class="clothe-description1">Etheureum Shirt</h2>
+                    </div>
+                    <img class="clothe-img" src="https://www.dropbox.com/s/i0hl9nnzvzi7d20/ethereum-shirt.jpeg?raw=1">
+                    <div class="price-container">
+                        <p>$25</p>
+                    </div>
+                    <button type="submit" id="submit" class="add-to-cart" style="vertical-align:middle;"><span
+                            class="spanElement">Add
+                            to
+                            Cart</span>
+                </div>
+
+                <div class="clothe-b">
+                    <h2 class="clothe-description1">Chainlink Sweatshirt</h2>
+                    <img class="clothe-img" src="https://www.dropbox.com/s/6154q5zn1oh52b9/Chainlink-Hoodie.jpeg?raw=1">
+                    <div class="price-container">
+                        <p>$50</p>
+                    </div>
+                    <button type="submit" id="submit" class="add-to-cart" style="vertical-align:middle;"><span
+                            class="spanElement">Add
+                            to
+                            Cart</span>
+                </div>
+                <div class="clothe-c">
+                    <h2 class="clothe-description1">Bitcoin Shoes</h2>
+                    <img class="clothe-img"
+                        src="https://www.dropbox.com/s/fs8arqmqb2ylbel/10230_0_0x2_4c73d32b-9cac-40ee-b695-bfa595d41a20.jpeg?raw=1">
+                    <div class="price-container">
+                        <p>$120</p>
+                    </div>
+                    <button type="submit" id="submit" class="add-to-cart" style="vertical-align:middle;"><span
+                            class="spanElement">Add
+                            to
+                            Cart</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+    </div>
+    <div class="container" id="demoWrapper2">
+        <br>
+        <div class="container2"></div>
+        <section id="Accessories">
+            <h1 class="clothes-title"><i>Accessories</i></h1>
+            <div class="container-grid" id="etheureum">
+                <div class="clothe-a">
+                    <div class="clothe-description">
+                        <h2 class="clothe-description1">Cardano Hat</h2>
+                    </div>
+                    <img class="clothe-img"
+                        src="https://www.dropbox.com/s/fi1yfdghmtvs3ih/Image%201-15-22%20at%2012.13%20AM.jpg?raw=1">
+                    <div class="price-container">
+                        <p>$25</p>
+                    </div>
+                    <button type="submit" id="submit" class="add-to-cart" style="vertical-align:middle;"><span
+                            class="spanElement">Add
+                            to
+                            Cart</span>
+                </div>
+
+                <div class="clothe-b">
+                    <h2 class="clothe-description1">Binance Pillow</h2>
+                    <img class="clothe-img"
+                        src="https://www.dropbox.com/s/svqs974q6m73e2u/Image%201-15-22%20at%2012.16%20AM.jpg?raw=1">
+                    <div class="price-container">
+                        <p>$50</p>
+                    </div>
+                    <button type="submit" id="submit" class="add-to-cart" style="vertical-align:middle;"><span
+                            class="spanElement">Add
+                            to
+                            Cart</span>
+                </div>
+                <div class="clothe-c">
+                    <h2 class="clothe-description1">Pancake Swap Bag</h2>
+                    <img class="clothe-img"
+                        src="https://www.dropbox.com/s/r5hn7o3kyi1odma/pancake-swap-backpack.jpeg?raw=1">
+                    <div class="price-container">
+                        <p>$175</p>
+                    </div>
+                    <button type="submit" id="submit" class="add-to-cart" style="vertical-align:middle;"><span
+                            class=spanElement>Add
+                            to
+                            Cart</span>
+                    </button>
+                </div>
+            </div>
+        </section>
+        <br>
+    </div>
+    <div class="container-fluid">
+        <section id="Shipping">
+            <br>
+            <div class="grid">
+                <div class="description">
+                    <h1 class="clothes-title"><i>Shipping</i></h1>
+                </div>
+            </div>
+    </div>
+    <div class="container1"></div>
+    <div class="container">
+        <section class="List">
+            <div class="row align-items-start flex-nowrap justify-content-start">
+                <div class="col-1 p-1" id="description">
+                    <img class="icon-style"
+                        src="https://www.dropbox.com/s/869f3iavi1ew2xw/FedEx__26533.1415918008.png?raw=1">
+                </div>
+                <div class="col-11 p-0">
+                    <ul class="graphic-list">
+                        <li class="list-font-1"><em>All products are shipped through FedEx</em> </li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row align-items-start flex-nowrap justify-content-start">
+                <div class="col-1 p-1" id="description">
+                    <img class="icon-style"
+                        src="https://www.dropbox.com/s/d71pzg4b0ao2wra/sign%20and%20schedule.svg?raw=1">
+                </div>
+                <div class="col-11 p-0">
+                    <ul class="graphic-list">
+                        <li class="list-font-2"><em> Optional sign requirements for delivery</em></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row align-items-start flex-nowrap justify-content-start">
+                <div class="col-1 p-1" id="description">
+                    <img class="icon-style"
+                        src="https://www.dropbox.com/s/96ylj27l6z3l2nt/png-transparent-calendar-date-computer-icons-agenda-others-text-calendar-logo.png?raw=1">
+                </div>
+                <div class="col-11 p-0">
+                    <ul>
+                        <li class="list-font-3"><em>Arrive within 7 business days with scheduling options</em></li>
+                    </ul>
+                </div>
+            </div>
+            <div class="row align-items-start flex-nowrap justify-content-start">
+                <div class="col-1 p-1" id="description">
+                    <img class="icon-style" src="https://www.dropbox.com/s/c7js8mokbfmol1g/return-package.png?raw=1">
+                </div>
+                <div class="col-11 p-0">
+                    <ul>
+                        <li class="list-font-4"><em>All products come with a free return label</em></li>
+                    </ul>
+                </div>
+        </section>
+    </div>
+    <footer>
+        <div class="footer">
+            <p>&copy; Crypto Cotton 2022</p>
+        </div>
+    </footer>
+    <!-- Bootstrap Javascript-->
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.2/dist/umd/popper.min.js"
+        integrity="sha384-IQsoLXl5PILFhosVNubq5LC7Qb9DXgDA9i+tQ8Zj3iwWAwPtgFTxbJ8NT4GN1R8p"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+        integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+        crossorigin="anonymous"></script>
 </body>
 
 </html>
